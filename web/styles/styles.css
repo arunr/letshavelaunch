@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'AgendaLight';
+  src: URL('../assets/fonts/Agenda-Light.ttf') format('truetype');
+}
+
+body{
+	line-height: 25px;
+	font-size:13px;
+	font-family: AgendaLight,sans-serif;
+	background: #00d1d9;
+}
+
+.lead, form {
+	font-size:13px;
+	font-family: AgendaLight,sans-serif;
+	color: #666;
+}
+
+.background {
+	background: #3b3b3b;
+	padding: 10px 0px 0px 0px; 
+	border-radius: 0px 0px 10px 10px
+}
+
+.logo {
+	border-radius:0px 0px 5px 5px; 
+	padding: 20px
+}
+
+.logo img {
+	border-radius:5px
+}
+
+.carousel {
+	padding: 10px;
+}
+
+img {
+	border-radius:10px
+}
+
+.notify {
+	color:orange; 
+	font-size:bigger
+}

@@ -1,0 +1,22 @@
+{
+	"dependencies": {
+		"express": "latest",
+		"mongoose": "latest",
+		"underscore": "latest"
+	},
+	"devDependencies": {
+		"chai": "latest",
+		"mocha": "latest",
+		"supertest": "latest"
+	},
+	"name": "landingpage",
+	"scripts": {
+		"start": "node app.js",
+		"test": "mocha --recursive -R spec"
+	},
+	"version": "0.0.1",
+	"engines": {
+		"node": "0.8.x"
+	}
+}
+
